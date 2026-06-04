@@ -1,0 +1,497 @@
+# Roman Urdu - English code-switching seed dataset
+# Format: token<TAB>label   |   blank line separates sentences
+# Labels: en=English  ur=Roman Urdu  ne=Named Entity  other=symbol/number/url/mention/hashtag/emoji  ambig=valid in both
+yaar	ur
+that	en
+meeting	en
+was	en
+so	en
+boring	en
+,	other
+kal	ur
+phir	ur
+karenge	ur
+.	other
+
+bro	en
+mausam	ur
+kitna	ur
+nice	en
+hai	ur
+aaj	ur
+🙂	other
+
+honestly	en
+mujhe	ur
+yeh	ur
+movie	en
+bilkul	ur
+pasand	ur
+nahi	ur
+aayi	ur
+
+@ali	other
+where	en
+are	en
+you	en
+?	other
+hum	ur
+sab	ur
+wait	en
+kar	ur
+rahe	ur
+hain	ur
+
+submission	en
+ki	ur
+deadline	en
+kab	ur
+hai	ur
+?	other
+
+guys	en
+let	en
+us	en
+chalein	ur
+abhi	ur
+class	en
+late	en
+ho	ur
+rahi	ur
+hai	ur
+
+main	ur
+office	en
+pohanch	ur
+gaya	ur
+hoon	ur
+,	other
+traffic	en
+bohot	ur
+tha	ur
+
+this	en
+restaurant	en
+ka	ur
+khana	ur
+bohot	ur
+zabardast	ur
+tha	ur
+
+kya	ur
+tum	ur
+weekend	en
+pe	ur
+free	en
+ho	ur
+?	other
+
+i	en
+think	en
+woh	ur
+banda	ur
+thora	ur
+overconfident	en
+hai	ur
+
+assignment	en
+complete	en
+karna	ur
+hai	ur
+warna	ur
+marks	en
+cut	en
+ho	ur
+jayenge	ur
+
+#exam	other
+ke	ur
+liye	ur
+dua	ur
+karo	ur
+sab	ur
+
+aaj	ur
+ka	ur
+match	en
+dekha	ur
+?	other
+last	en
+over	en
+mein	ur
+maza	ur
+aa	ur
+gaya	ur
+
+mera	ur
+phone	en
+ki	ur
+battery	en
+dead	en
+ho	ur
+gayi	ur
+
+literally	en
+mujhse	ur
+nahi	ur
+ho	ur
+raha	ur
+yeh	ur
+kaam	ur
+
+let	en
+me	en
+check	en
+karta	ur
+hoon	ur
+ek	ur
+minute	en
+
+karachi	ne
+ka	ur
+weather	en
+aaj	ur
+kal	ur
+unpredictable	en
+hai	ur
+
+shukriya	ur
+for	en
+the	en
+help	en
+yaar	ur
+
+agar	ur
+time	en
+mile	ur
+to	ambig
+mujhe	ur
+call	en
+karna	ur
+
+he	en
+is	en
+such	en
+a	en
+genius	en
+bhai	ur
+
+apni	ur
+presentation	en
+ready	en
+hai	ur
+kya	ur
+?	other
+
+bilkul	ur
+chill	en
+karo	ur
+sab	ur
+theek	ur
+ho	ur
+jayega	ur
+
+netflix	ne
+pe	ur
+koi	ur
+acchi	ur
+series	en
+recommend	en
+karo	ur
+
+main	ur
+breakfast	en
+skip	en
+kar	ur
+deta	ur
+hoon	ur
+mostly	en
+
+us	ambig
+ne	ur
+kaha	ur
+ke	ur
+project	en
+almost	en
+done	en
+hai	ur
+
+khuda	ur
+hafiz	ur
+,	other
+take	en
+care	en
+apna	ur
+
+lahore	ne
+mein	ur
+food	en
+street	en
+ka	ur
+scene	en
+amazing	en
+hai	ur
+
+aj	ur
+bohat	ur
+thak	ur
+gaya	ur
+,	other
+need	en
+some	en
+rest	en
+
+yeh	ur
+code	en
+run	en
+kyun	ur
+nahi	ur
+ho	ur
+raha	ur
+?	other
+
+congrats	en
+bhai	ur
+finally	en
+job	en
+mil	ur
+gayi	ur
+🎉	other
+
+mujhe	ur
+samajh	ur
+nahi	ur
+aaya	ur
+this	en
+concept	en
+
+kal	ur
+ka	ur
+plan	en
+cancel	en
+kar	ur
+do	ambig
+yaar	ur
+
+she	en
+literally	en
+ignore	en
+kar	ur
+rahi	ur
+hai	ur
+mujhe	ur
+
+zaror	ur
+aana	ur
+party	en
+mein	ur
+,	other
+it	en
+will	en
+be	en
+fun	en
+
+team	en
+ke	ur
+saath	ur
+meeting	en
+postpone	en
+ho	ur
+gayi	ur
+
+google	ne
+pe	ur
+search	en
+karo	ur
+answer	en
+mil	ur
+jayega	ur
+
+bhai	ur
+exam	en
+ki	ur
+tension	en
+mat	ur
+lo	ur
+
+aaj	ur
+maine	ur
+naya	ur
+laptop	en
+order	en
+kiya	ur
+amazon	ne
+se	ur
+
+dinner	en
+ke	ur
+baad	ur
+walk	en
+pe	ur
+chalein	ur
+?	other
+
+is	ambig
+weekend	en
+hum	ur
+movie	en
+dekhne	ur
+ja	ur
+rahe	ur
+hain	ur
+
+your	en
+idea	en
+bohot	ur
+solid	en
+hai	ur
+bro	en
+
+main	ur
+busy	en
+hoon	ur
+abhi	ur
+,	other
+baad	ur
+mein	ur
+text	en
+karta	ur
+hoon	ur
+
+islamabad	ne
+ka	ur
+traffic	en
+aaj	ur
+zyada	ur
+nahi	ur
+tha	ur
+
+please	en
+mujhe	ur
+notes	en
+bhej	ur
+do	ambig
+exam	en
+kal	ur
+hai	ur
+
+result	en
+aane	ur
+wala	ur
+hai	ur
+,	other
+i	en
+am	en
+nervous	en
+
+woh	ur
+restaurant	en
+expensive	en
+hai	ur
+par	ambig
+khana	ur
+acha	ur
+hai	ur
+
+let	en
+s	en
+go	en
+abhi	ur
+,	other
+warna	ur
+late	en
+ho	ur
+jayega	ur
+
+mera	ur
+internet	en
+slow	en
+chal	ur
+raha	ur
+hai	ur
+today	en
+
+happy	en
+birthday	en
+yaar	ur
+,	other
+khush	ur
+raho	ur
+hamesha	ur
+
+uska	ur
+behaviour	en
+bohot	ur
+weird	en
+tha	ur
+party	en
+mein	ur
+
+i	en
+will	en
+share	en
+the	en
+file	en
+abhi	ur
+ek	ur
+sec	en
+
+kya	ur
+tumne	ur
+assignment	en
+submit	en
+kar	ur
+diya	ur
+?	other
+
+bohot	ur
+garmi	ur
+hai	ur
+,	other
+ac	en
+on	en
+karo	ur
+please	en
+
+faisalabad	ne
+se	ur
+mera	ur
+cousin	en
+aaya	ur
+hai	ur
+visit	en
+pe	ur
+
+this	en
+song	en
+mujhe	ur
+bilkul	ur
+pasand	ur
+nahi	ur
+
+dekho	ur
+guys	en
+focus	en
+karo	ur
+exam	en
+near	en
+hai	ur
+
+msummy	ur
+ne	ur
+khana	ur
+bana	ur
+diya	ur
+,	other
+so	en
+good	en
+
+ok	en
+done	en
+,	other
+main	ur
+nikalta	ur
+hoon	ur
+ghar	ur
+ke	ur
+liye	ur

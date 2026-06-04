@@ -1,0 +1,19 @@
+# Virtual environments
+myenv/
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
