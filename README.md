@@ -106,9 +106,6 @@ test — the honest, harder test):
   Urdu sentences; where to draw the line is a real annotation decision.
 - **Dialect / spelling variation** — *bohot / bohat / bahut* all mean the same;
   character n-grams help, but coverage depends on your data.
-
-Being able to name these failure modes is more impressive than the F1 score.
-
 ---
 
 ## Scaling the dataset
@@ -124,9 +121,6 @@ python src/weak_label.py raw_text.txt > weak_labeled.tsv   # auto-label
 `weak_label.py` labels obvious tokens by rule + lexicon and falls back to the
 trained model for unknown words. **Weak labels are noisy** — the workflow is
 *bootstrap → human review → train*, never train blindly on them.
-
-Good public sources to expand with: the FIRE code-mixing shared-task data,
-the LinCE benchmark, and your own scraped Twitter/X / YouTube comments.
 
 ---
 
