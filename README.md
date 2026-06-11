@@ -96,12 +96,6 @@ test — the honest, harder test):
    macro avg                   0.78
 ```
 
-The headline accuracy (~0.95) is strong, but the **interesting story is in the
-rare classes**: named entities and ambiguous words are hard, which is exactly
-what you'd expect and what makes for a good discussion.
-
----
-
 ## Failure analysis (talk about this in interviews)
 
 - **Named entities (`ne`)** are under-recalled — there are few examples and they
