@@ -96,7 +96,7 @@ test — the honest, harder test):
    macro avg                   0.78
 ```
 
-## Failure analysis (talk about this in interviews)
+## Failure analysis
 
 - **Named entities (`ne`)** are under-recalled — there are few examples and they
   look like ordinary words. Fixing this wants more data or a gazetteer.
@@ -105,7 +105,7 @@ test — the honest, harder test):
 - **Loanwords** — *office, phone, internet* are English-origin but used inside
   Urdu sentences; where to draw the line is a real annotation decision.
 - **Dialect / spelling variation** — *bohot / bohat / bahut* all mean the same;
-  character n-grams help, but coverage depends on your data.
+  character n-grams help, but coverage depends on data.
 ---
 
 ## Scaling the dataset
@@ -121,21 +121,6 @@ python src/weak_label.py raw_text.txt > weak_labeled.tsv   # auto-label
 `weak_label.py` labels obvious tokens by rule + lexicon and falls back to the
 trained model for unknown words. **Weak labels are noisy** — the workflow is
 *bootstrap → human review → train*, never train blindly on them.
-
----
-
-## Upgrade path
-
-The baseline is deliberately the floor, not the ceiling:
-
-1. **Add a CRF** (`sklearn-crfsuite`) on top of the same features for proper
-   sequence modelling — neighbouring labels constrain each other.
-2. **Fine-tune a transformer** — `xlm-roberta-base` is multilingual and a
-   natural fit for token classification on code-switched text. Log the baseline
-   numbers first so you have an honest comparison to point to.
-3. **Downstream use** — use the tagger as a preprocessing step and show it
-   improves sentiment classification on mixed text. That turns this into a
-   two-stage story with measurable payoff.
 
 ---
 
@@ -163,5 +148,3 @@ codeswitch-detector/
 ## License / data note
 
 The seed data here is small and synthetic-realistic, written for demonstration.
-When you add scraped social data, respect each platform's terms of service and
-remove personal/identifying information before sharing a public dataset.
