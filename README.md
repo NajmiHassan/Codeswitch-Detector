@@ -69,18 +69,14 @@ raw text ─▶ tokenizer ─▶ per-token features ─▶ DictVectorizer ─▶
 The model is a **per-token logistic-regression classifier** — simple, fast, and
 fully inspectable. Each token becomes a feature dictionary built from:
 
-- **Character n-grams (2–4)** — the workhorse for word-level language ID.
+- **Character n-grams (2–4)**: the workhorse for word-level language ID.
   Roman Urdu has statistically distinctive substrings (`kh`, `gh`, `aa`,
   endings like `-ein`, `-on`, `-ay`) that separate it from English.
-- **Lexicon membership** — is the word in an English list, an Urdu list, both,
+- **Lexicon membership**: is the word in an English list, an Urdu list, both,
   or neither? Strong, interpretable signal.
-- **Word shape** — capitalization, length, doubled letters.
-- **Light context** — what languages the neighbouring words belong to, which
+- **Word shape**: capitalization, length, doubled letters.
+- **Light context**: what languages the neighbouring words belong to, which
   helps disambiguate words living in both languages.
-
-No deep learning is required for a strong baseline — and being able to explain
-*why* a token was labelled the way it was is a real asset.
-
 ---
 
 ## Results
